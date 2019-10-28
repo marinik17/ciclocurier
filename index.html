@@ -12,7 +12,7 @@
 
   <link rel="shortcut icon" href="ciclo.ico"/>
   <link rel="icon" href="ciclo.ico"/>
-  
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -26,6 +26,24 @@
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
 
+<style>
+.stat{
+background:#121212;
+padding-top: 80px;
+padding-bottom: 80px;
+background-attachment: fixed;}
+
+.stat-items h2{
+font-weight: bold;
+font-size: 42px;
+color: orange;}
+
+.stat-items p{
+font-weight: bold;
+color:#03a9f4;
+letter-spacing: 1px;
+}
+</style>
 </head>
 
 <body id="page-top">
@@ -62,7 +80,7 @@
         <ul class="navbar-nav right-nav hidden-md-down ml-0 mr-0 mt-auto mb-auto">
           <li class="nav-item">
           <p class="orar">Program: 10:00 - 18:00</p>
-        
+
           <p class="orar">luni-vineri</p>
           <a class="orar" href="tel:+40752041061">0752041061</a></li>
           <li class="nav-item">
@@ -77,7 +95,7 @@
   <header class="masthead">
     <div class="overlay"></div>
     <div class="container">
-      <div class="intro-text">        
+      <div class="intro-text">
         <div class="intro-heading">Curierat rapid</div>
         <div class="intro-heading">pe bicicletă</div>
           <div class="intro-lead-in">Soluția optimă pentru afacerea ta într-un oraș aglomerat.</div>
@@ -94,19 +112,19 @@
           <h2 class="section-heading text-uppercase">Prețuri</h2>
         </div>
       </div>
-      <div class="container price-wrapper" id="preturi-target">        
+      <div class="container price-wrapper" id="preturi-target">
       <div class="row">
         <div class="col-md-4 offset-md-1 mobile-pad">
-        <p class="price-title blue">Livrări standard</p>        
+        <p class="price-title blue">Livrări standard</p>
         <ul class="livrari-list">
           <li class="standard-item">Livrări efectuate &icirc;n aceeasi zi</li>
           <li class="standard-item">Timp maxim de livrare 150 min</li>
           <li class="standard-item">Recomandat livrărilor de orice fel cu o greutate maximă de 15 kg</li>
-        </ul>      
-        </div>                
-        
+        </ul>
+        </div>
+
         <div class="col-md-4 offset-md-1">
-        <p class="price-title orange">Livrări express</p>        
+        <p class="price-title orange">Livrări express</p>
         <ul class="livrari-list">
           <li class="express-item">Livrări cu spor ridicat de viteză</li>
           <li class="express-item">Timp maxim de livrare 90 min</li>
@@ -115,76 +133,88 @@
         </div>
         </div>
       </div>
-      
+
       <div class="row km-price">
         <div class="col-md-1 illustration-container"><img alt="stick bycicle" src="img/logos/stickcycle.png" /></div>
-        
+
         <div class="col-md-4 offset-md-1 km-align hidden-sm-down">
         <div class="frst-price">
         <p class="km blue border">0-3<br />
         km</p>
-        
+
         <p class="price-min text-center">90 minute</p>
-        
+
         <p class="price-min r-black text-center">13 lei</p>
         </div>
-        
+
         <div class="sec-price">
         <p class="km blue border">3-6<br />
         km</p>
-        
+
         <p class="price-min text-center">120 minute</p>
-        
+
         <p class="price-min r-black text-center">18 lei</p>
         </div>
-        
+
         <div class="thrd-price">
         <p class="km blue border">6-10<br />
         km</p>
-        
+
         <p class="price-min text-center">150 minute</p>
-        
+
         <p class="price-min r-black text-center">24 lei</p>
         </div>
         </div>
-        
+
         <div class="col-md-4 offset-md-1 km-align">
         <div class="first-price">
         <p class="km orange">0-3<br />
         km</p>
-        
+
         <p class="price-min text-center">45 minute</p>
-        
+
         <p class="price-min r-black text-center">19 lei</p>
         </div>
-        
+
         <div class="sec-price">
         <p class="km orange">3-6<br />
         km</p>
-        
+
         <p class="price-min text-center">60 minute</p>
-        
+
         <p class="price-min r-black text-center">24 lei</p>
         </div>
-        
+
         <div class="thrd-price">
         <p class="km orange">6-10<br />
         km</p>
-        
+
         <p class="price-min text-center">90 minute</p>
-        
+
         <p class="price-min r-black text-center no-border">30 lei</p>
         </div>
         </div>
         </div>
       </div>
-        
-  </section>
 
+  </section>
+  <section class="stat">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md">
+          <div class="stat-items">
+            <img src="img/logos/co2.png" alt="CO2 logo">
+            <h2><span class="counter text-center">41025</span><span> t</span></h2>
+            <p>AER CURAT SALVAT</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Portfolio Grid -->
   <section class="bg-light page-section" id="portfolio">
     <div class="container">
-      <div class="row">
+      <div class="row ">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">FAQ</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
@@ -783,6 +813,19 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+
+  <!-- Counter-Up scripts -->
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script>
+jQuery(document).ready(function(){
+  $('.counter').counterUp({
+    delay:20,
+    time:2000,
+  });
+});
+
+  </script>
 
 </body>
 
